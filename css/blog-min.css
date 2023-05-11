@@ -6,6 +6,9 @@
 	font-family: 'Poppins',sans-serif;
 
 }
+html{
+	scroll-behavior: smooth;
+}
 
 .blog-banner{
 	width: 100%;

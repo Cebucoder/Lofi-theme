@@ -896,6 +896,7 @@ body{
 .activity-holder span:hover{
     background: #64ffda4a;
     cursor: pointer;
+    color: #64ffda;
 }
 .activity-holder small{
     letter-spacing: 1px;
