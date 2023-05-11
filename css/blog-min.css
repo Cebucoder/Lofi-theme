@@ -45,6 +45,7 @@
 	overflow: hidden;
 	position: relative;
 	box-shadow: 0 0 10px -2px lightgray;
+	margin: 10px 0;
 }
 
 /*student-pic*/

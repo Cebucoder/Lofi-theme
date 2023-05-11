@@ -1,0 +1,18 @@
+body{
+    background-color: #495250;
+}
+
+.card{
+    width: 400px;
+    background-color: #212529;
+    margin-top: 150px;
+    color: white;
+}
+
+.btn{
+    border: none;
+}
+
+.btn2{
+    color: black;
+}
