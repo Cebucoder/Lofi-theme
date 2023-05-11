@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY PROFILE</title>
+    
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <marquee scrollamount="15" direction="right" >
+      <img src="images/robot.gif">
+      </marquee>
+    </body>
+    <body>
+      <h1> MY PROFILE </h1>
+        <img src="Regine.jpg">
+    
+       <div class="align">
+    <table>
+            
+                <tr>
+                    <th>Name:</th>
+                    <td>Regine Cole Salas</td>
+                </tr>
+
+                <tr>
+                    <th>Age:</th>
+                    <td>19</td>
+                </tr>
+
+                <tr>
+                    <th>Status:</th>
+                    <td>Single</td>
+                </tr>
+                
+                <tr>
+                    <th>Birthdate:</th>
+                    <td>July 10, 2003</td>
+                </tr>
+
+                <tr>
+                    <th>Home Address</th>
+                    <td>Poblacion Talisay City Cebu</td>
+                </tr>
+
+                <tr>
+                    <th>Mobile Number:</th>
+                    <td>09455524268</td>
+                </tr>
+
+                <tr>
+                    <th>Email Address:</th>
+                    <td>salasregine282@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <th>Secondary Education:</th>
+                    <td>Talisay City National High School</td>
+                </tr>
+
+                <tr>
+                    <th>Tertiary Education:</th>
+                    <td>Asian College Of Technology</td>
+                </tr>
+
+                <tr>
+                    <th>Program:</th>
+                    <td>Bachelor of Science Information Technology</td>
+                </tr>
+               
+    </table>
+    
+            <div class="forms">
+                <form action="index.html">
+                    <h2>*denotes mandatory</h2>
+                     
+                    <label>Fullname: <br>
+                        <input type="text" name="Fullname" placeholder="FirstName LastName" required>
+                    </label>
+                    <br>
+                    <label>Email address: <br>
+                        <input type="text" name="Email address" placeholder="EMAIL_ADDRESS" required>
+                    </label> <br>
+                    <label>Select Tour Package:</label><br>
+                    <select name="Package" id="tour">
+                        <option value="1">sightseeing</option>
+                        <option value="2">Accommadation</option>
+                        <option value="3">Food and beverages</option>
+                    <label for="start">
+                        Arrival date: <br>
+                        <input type="date" name="date" value="" placeholder="mm/dd/yy" min="1990-01-01" max="2024-01-01">
+                    </label>
+                    <br>
+                    <label>Number of Person: <br>
+                        <input type="number" id="quantity" name="quantity" min="1" max="999999" required>
+                    </label>
+                    <br>
+                    <label for="avail">
+                        What would you like to avail? <br> 
+                        Boarding
+                        <input type="checkbox" name="avail" value="Boarding" required>
+                    </label>
+                    <br>
+                    <label for="avail">
+                        Fooding
+                        <input type="checkbox" name="avail" value="Fooding" required>
+                    </label>
+                    <br>
+                    <label for="avail">
+                        Sightseeing
+                        <input type="checkbox" name="avail" value="sightseeing" required>
+                    </label>
+                    <br>
+                    <label for="discount">
+                        Discount Coupon Code:
+                        <br>
+                        <input type="number" id="quantity" name="quantity" min="1" max="999999" required>
+                    </label>
+                    <br>
+                    <label for="abous us">
+                        Term and Conditions <br>
+                        <input type="radio" name="term and condition" value="term and condition" >  I agree 
+                        <input type="radio" name="term and condition" value="term and condition"> I disagree
+                    </label>
+                    <br>
+                    <input type="submit" value="Complete Reservation">
+
+               
+                </form> 
+            </div>
+        
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-image: url("square.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card{
+    margin-top: 150px;
+    background-color: #302c2c;
+    color: white;
+}
+.card-header{
+    background-color: black;
+    color: white;
+}
+.btn-primary:hover
+{
+    background-color: rgb(1, 1, 107);
+}
+.btn-warning:hover
+{
+    background-color: #645c02;
+}
+.btn-success:hover
+{
+    background-color: #023020;
+
+}
+.btn-danger:hover
+{
+    background-color:#7a0000;
+}
+.btn-secondary:hover
+{
+    background-color: dark rgb(17, 17, 17);
+}
+.TitleHead
+{
+    text-align:center;
+}

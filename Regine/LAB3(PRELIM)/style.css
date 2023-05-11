@@ -1,0 +1,58 @@
+body{
+     background-image: url('../myprofile/images/inform.png');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+h1{
+  text-align: center;
+}
+   
+table{
+    border: 3px solid rgb(10, 10, 10);
+    font-family:Arial,Helvetica,sans-serif;
+    width: 50%;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+
+th {
+    background-color: rgba(12, 132, 207, 0.036);
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+ 
+img{
+    
+    height: 300px;
+    width: 300px;
+    border: 0px solid rgba(0, 0, 0, 0.966);
+    margin-left: 580px;
+  
+}
+
+
+form{
+    background-color: rgba(15, 159, 216, 0.905);
+    display: inline-table;
+    padding: 6%;
+    border: 6px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+
+
+
+  
+  

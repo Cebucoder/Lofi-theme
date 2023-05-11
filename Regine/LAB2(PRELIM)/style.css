@@ -1,0 +1,53 @@
+table{
+    border: 2px solid rgb(10, 10, 10);
+    font-family:Arial,Helvetica,sans-serif;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+th {
+    background-color: rgb(79, 86, 187);
+    color: aliceblue;
+    text-align: right;
+}
+
+td {
+    background-color: rgb(65, 77, 184);
+    color: aliceblue;
+    text-align: left;
+}
+ 
+img{
+    
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgb(0, 0, 0);
+    margin-left: 500px;
+  
+}
+
+h3{
+    text-align: center;
+}
+.gradient-background {
+    background: linear-gradient(209deg,#820a97,#b2646b,#aecd04);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+     
+     
