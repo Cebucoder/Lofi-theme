@@ -90,3 +90,28 @@ function ShowMidterm3(){
 }
 
 // ===========FELIX============
+
+
+// ===========SHELOU============
+
+
+let showprem4 = document.getElementById("blog-overlayshe1");
+let showmidterm4 = document.getElementById("blog-overlayshe");
+
+function ShowPrelim4(){
+	showprem4.classList.add("Show-prem-modal")
+}
+
+function ClosePrem4(){
+	showprem4.classList.remove("Show-prem-modal")
+	showmidterm4.classList.remove("Show-prem-modal")
+
+}
+
+function ShowMidterm4(){
+	showmidterm4.classList.add("Show-prem-modal")
+}
+
+// ===========SHELOU============
+
+
