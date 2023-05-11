@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="min-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/feature-min.css">
+
+    <!-- BOOTSRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Uxie | Feature</title>
+</head>
+<body id="darkbody">
+
+    <div class="main-container" id="Darkmode">
+        <div class="banner">
+            <div class="header">
+                <!-- left header -->
+                <div class="left-header">
+                    <!-- logo -->
+                    <div class="logo">
+                        <img src="lots.png" alt="">
+                    </div>
+                    <!-- sitename -->
+                    <span>
+                        <h1>Uxie</h1>
+                    </span>
+                </div>
+                <!-- searchbar -->
+                <div class="searchbar">
+                    <input type="text">
+                    <span>
+                        <ion-icon name="search"></ion-icon>
+                    </span>
+                </div>
+                <!-- menu bar -->
+                <div class="menubar" onclick="showMothCont()">
+                   <div class="line hover"></div>
+                   <div class="line"></div>
+                   <div class="line hover"></div>
+                </div>
+            </div>
+            <!-- navigation-social -->
+            <div class="navigation-social" id="navigation">
+
+                <!-- logo -->
+                <div class="logo hide-logo" id="show-logo">
+                    <img src="lots.png" alt="">
+                </div>
+
+                <!-- navlinks -->
+                <div class="navlinks">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="blog.html"><li>Blog</li></a>
+                    <a href="#"><li>Feature</li></a>
+                </div>
+                <!-- social Icons -->
+                <div class="social-icon">
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-google"></ion-icon></span>
+                    <span><ion-icon name="logo-discord"></ion-icon></span>
+                </div>
+
+                <!-- menu bar -->
+                <div class="menubar hide-burger" id="hide-burgers" onclick="showMothCont()">
+                   <div class="line hover"></div>
+                   <div class="line"></div>
+                   <div class="line hover"></div>
+                </div>
+            </div>
+
+            <div class="about-icon">
+                <div class="team-icon">
+                    <div class="small-logo" id="main-logo" onclick="showAbout()">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="small-logo mt delay1" onclick="showLyndon()">
+                        <img src="./aboutus/leader.jpg" alt="">
+                    </div>
+                    <div class="small-logo delay2"  onclick="showRich()">
+                        <img src="./aboutus/Ui1.jpg" alt="">
+                    </div>
+
+                    <div class="small-logo mt delay3" onclick="showReg()">
+                        <img src="./aboutus/Ui2.jpg" alt="">
+                    </div>
+                    <div class="small-logo mt delay4" onclick="showFelix()">
+                        <img src="./aboutus/Dev1.jpg" alt="">
+                    </div>
+                    <div class="small-logo mt delay5" onclick="showShe()">
+                        <img src="./aboutus/Doc.jpg" alt="">
+                    </div>
+                 <!--    <div class="small-logo mt" onclick="showAbout()">
+                        <img src="./images/logo.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+
+
+            <!-- side navigtion for menu bar -->
+            <div class="menu-cotainer" id="menu-cotainer">
+                <div class="menu-cont" id="menu-cont">
+                    <div class="menu-cont-header" onclick="CloseMenuCont()">
+                        <ion-icon name="close"></ion-icon>
+                    </div>
+
+                    <div class="user" style="height: 50px; padding: 20px;" >
+                        <h2  style="color: #cea2d7; font-family:'Poppins',san-serif;" id="userID">Hi</h2>
+                   </div>
+
+                    <!-- menu-content    -->
+                    <div class="menu-content">
+                        
+                        <ul>
+                            <a href="./main-login.html" onclick="Logout()"><ion-icon name="log-out"></ion-icon><li>Logout</li></a>
+                            <a href="#" onclick="toggleDark()"><ion-icon name="moon"></ion-icon><li>Darkmode</li></a>
+                            <a href="#" id="play-music-btn">
+                                <ion-icon class="mute" id="mute" name="volume-mute"></ion-icon>
+                                <ion-icon class="play" id="play" name="volume-high" ></ion-icon>
+                                <li>Music</li></a>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- about us -->
+            <div class="about-cont" id="Show-About">
+                <div class="about-content">
+                    <div class="about-header">
+                        <h1>Team</h1>
+                        <span class="close-about" onclick="closeAbout()">
+                            <ion-icon name="close"></ion-icon>
+                        </span>
+                    </div>
+                    <div class="team">
+
+
+                        <!-- lyndon -->
+                       <div class="team-cont">
+                            <div class="team-pic" onclick="showAboutusModal()">
+                                <img src="./aboutus/leader.jpg" alt="">
+                            </div>
+                            <span class="team-details">
+                                <small>Developer/Leader</small>
+                                <button onclick="showAboutusModal()">Lyndon Erl Ramirez</button>
+                            </span>
+                       </div>
+
+
+
+                       <!-- Richamille Ann Ricaforte -->
+                       <div class="team-cont" >
+                            <div class="team-pic" onclick="showAboutusModal1()">
+                                <img src="./aboutus/Ui1.jpg" alt="">
+                            </div>
+                            <span class="team-details">
+                                <small>UI Designer</small>
+                                <button onclick="showAboutusModal1()">Richamille Ricaforte</button>
+                            </span>
+                        </div>
+
+
+
+                        <!-- Regine Cole Salas -->
+                       <div class="team-cont">
+                        <div class="team-pic" onclick="showAboutusModal2()">
+                            <img src="./aboutus/Ui2.jpg" alt="">
+                        </div>
+                        <span class="team-details">
+                            <small>UI Designer</small>
+                            <button onclick="showAboutusModal2()">Regine Cole Salas</button>
+                        </span>
+                        </div>
+
+
+
+                        <!-- Felix Alicante  -->
+                       <div class="team-cont">
+                            <div class="team-pic" onclick="showAboutusModal3()">
+                                <img src="./aboutus/dev1.jpg" alt="">
+                            </div>
+                            <span class="team-details">
+                                <small>Developer</small>
+                                <button onclick="showAboutusModal3()">Felix Alicante </button>
+                            </span>
+                        </div>
+
+                       <!-- Shellou Frasco -->
+                       <div class="team-cont">
+                            <div class="team-pic" onclick="showAboutusModal4()">
+                                <img src="./aboutus/Doc.jpg" alt="">
+                            </div>
+                            <span class="team-details">
+                                <small>Documentation</small>
+                                <button onclick="showAboutusModal4()">Shellou Frasco</button>
+                            </span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+           <!-- Aboutus Popup1 -->
+            <div class="aboutus-overlay" id="aboutus-overlay">
+                <!-- closebutton -->
+                <span class="close-news" onclick="closeABoutusModal()">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="aboutus-card" id="aboutus-card">
+                    <div class="mypic">
+                        <img src="./aboutus/leader.jpg">
+                    </div>
+                    <div class="mydetails">
+                        <span class="label">
+                            <small>Name:</small>
+                            <small>Age:</small>
+                            <small>Section:</small>
+                            <small>Position:</small>  
+                        </span>
+                        <span class="about-me">
+                            <small>Lyndon Erl Ramirez</small>
+                            <small>21</small>
+                            <small>IT 401</small>
+                            <small>Developer</small>
+                        </span>
+                        <span class="prog-cont">
+                            <span>
+                                <small>Html</small>
+                                <div class="prog perc"></div>
+                            </span>
+                            <span>
+                                <small>Css</small>
+                                <div class="prog perc1"></div>
+                            </span>
+                            <span>
+                                <small>JavaScript</small>
+                                <div class="prog perc2"></div>
+                            </span>
+                            <span>
+                                <small>C#</small>
+                                <div class="prog perc3"></div>
+                            </span> 
+                            <span>
+                                <small>SQL</small>
+                                <div class="prog felix4"></div>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="my-social">
+                        <span><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span><ion-icon name="logo-discord"></ion-icon></span>
+                        <span><ion-icon name="logo-google"></ion-icon></span>
+                    </div>
+                    <div class="newsletter">
+                        <div class="news-box">
+                            <input type="" name="" placeholder="Send me a message">
+                            <span><ion-icon name="send"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="activity-holder">
+                        <span>
+                            <a href="Feature.html"><small>Activities</small></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aboutus Popup1 -->
+
+
+
+
+            <!-- Aboutus Popup2 -->
+            <div class="aboutus-overlay" id="aboutus-overlay1" >
+                <!-- closebutton -->
+                <span class="close-news" onclick="closeABoutusModal1()">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="aboutus-card" id="aboutus-card1">
+                    <div class="mypic">
+                        <img src="./aboutus/Ui1.jpg">
+                    </div>
+                    <div class="mydetails">
+                        <span class="label">
+                            <small>Name:</small>
+                            <small>Age:</small>
+                            <small>Section:</small>
+                            <small>Position:</small>  
+                        </span>
+                        <span class="about-me">
+                            <small>Richamille Ann Ricaforte </small>
+                            <small>19</small>
+                            <small>IT 401</small>
+                            <small>UI Designer</small>
+                        </span>
+                        <span class="prog-cont">
+                            <span>
+                                <small>Html</small>
+                                <div class="prog rich"></div>
+                            </span>
+                            <span>
+                                <small>Css</small>
+                                <div class="prog rich1"></div>
+                            </span>
+                            <span>
+                                <small>JavaScript</small>
+                                <div class="prog rich2"></div>
+                            </span>
+                            <span>
+                                <small>C#</small>
+                                <div class="prog rich3"></div>
+                            </span> 
+                            <span>
+                                <small>SQL</small>
+                                <div class="prog rich4"></div>
+                            </span> 
+                        </span>
+                    </div>
+                    <div class="my-social">
+                        <span><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span><ion-icon name="logo-discord"></ion-icon></span>
+                        <span><ion-icon name="logo-google"></ion-icon></span>
+                    </div>
+                    <div class="newsletter">
+                        <div class="news-box">
+                            <input type="" name="" placeholder="Send me a message">
+                            <span><ion-icon name="send"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="activity-holder">
+                        <span>
+                            <a href="Feature.html"><small>Activities</small></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aboutus Popup2 -->
+
+
+
+            <!-- Aboutus Popup3 -->
+            <div class="aboutus-overlay" id="aboutus-overlay2">
+                <!-- closebutton -->
+                <span class="close-news" onclick="closeABoutusModal2()">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="aboutus-card" id="aboutus-card2">
+                    <div class="mypic">
+                        <img src="./aboutus/Ui2.jpg">
+                    </div>
+                    <div class="mydetails">
+                        <span class="label">
+                            <small>Name:</small>
+                            <small>Age:</small>
+                            <small>Section:</small>
+                            <small>Position:</small>  
+                        </span>
+                        <span class="about-me">
+                            <small>Regine Cole Salas</small>
+                            <small>19</small>
+                            <small>IT 401</small>
+                            <small>UI Designer</small>
+                        </span>
+
+                        <span class="prog-cont">
+                            <span>
+                                <small>Html</small>
+                                <div class="prog regine"></div>
+                            </span>
+                            <span>
+                                <small>Css</small>
+                                <div class="prog regine1"></div>
+                            </span>
+                            <span>
+                                <small>JavaScript</small>
+                                <div class="prog regine2"></div>
+                            </span>
+                            <span>
+                                <small>C#</small>
+                                <div class="prog regine3"></div>
+                            </span> 
+                        </span>
+                        
+                    </div>
+                    <div class="my-social">
+                        <span><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span><ion-icon name="logo-discord"></ion-icon></span>
+                        <span><ion-icon name="logo-google"></ion-icon></span>
+                    </div>
+                    <div class="newsletter">
+                        <div class="news-box">
+                            <input type="" name="" placeholder="Send me a message">
+                            <span><ion-icon name="send"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="activity-holder">
+                        <span>
+                            <a href="Feature.html"><small>Activities</small></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aboutus Popup3 -->
+
+
+
+            <!-- Aboutus Popup4 -->
+            <div class="aboutus-overlay" id="aboutus-overlay3" >
+                <!-- closebutton -->
+                <span class="close-news" onclick="closeABoutusModal3()">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="aboutus-card" id="aboutus-card3">
+                    <div class="mypic">
+                        <img src="./aboutus/dev1.jpg">
+                    </div>
+                    <div class="mydetails">
+                        <span class="label">
+                            <small>Name:</small>
+                            <small>Age:</small>
+                            <small>Section:</small>
+                            <small>Position:</small>  
+                        </span>
+                        <span class="about-me">
+                            <small>Felix Alicante</small>
+                            <small>23</small>
+                            <small>IT 401</small>
+                            <small>Developer</small>
+                        </span>
+
+                        <span class="prog-cont">
+                            <span>
+                                <small>Html</small>
+                                <div class="prog felix"></div>
+                            </span>
+                            <span>
+                                <small>Css</small>
+                                <div class="prog felix1"></div>
+                            </span>
+                            <span>
+                                <small>JavaScript</small>
+                                <div class="prog felix2"></div>
+                            </span>
+                            <span>
+                                <small>C#</small>
+                                <div class="prog felix3"></div>
+                            </span>
+                            <span>
+                                <small>SQL</small>
+                                <div class="prog felix4"></div>
+                            </span> 
+                        </span>
+                    </div>
+                    <div class="my-social">
+                        <span><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span><ion-icon name="logo-discord"></ion-icon></span>
+                        <span><ion-icon name="logo-google"></ion-icon></span>
+                    </div>
+                    <div class="newsletter">
+                        <div class="news-box">
+                            <input type="" name="" placeholder="Send me a message">
+                            <span><ion-icon name="send"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="activity-holder">
+                        <span>
+                            <a href="Feature.html"><small>Activities</small></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aboutus Popup4 -->
+
+
+            <!-- Aboutus Popup4 -->
+            <div class="aboutus-overlay" id="aboutus-overlay4" >
+                <!-- closebutton -->
+                <span class="close-news" onclick="closeABoutusModal4()">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="aboutus-card" id="aboutus-card4">
+                    <div class="mypic">
+                        <img src="./aboutus/Doc.jpg">
+                    </div>
+                    <div class="mydetails">
+                        <span class="label">
+                            <small>Name:</small>
+                            <small>Age:</small>
+                            <small>Section:</small>
+                            <small>Position:</small>  
+                        </span>
+                        <span class="about-me">
+                            <small>Shellou Frasco</small>
+                            <small>22</small>
+                            <small>IT 401</small>
+                            <small>Documentation</small>
+                        </span>
+                        <span class="prog-cont">
+                            <span>
+                                <small>Html</small>
+                                <div class="prog shelou"></div>
+                            </span>
+                            <span>
+                                <small>Css</small>
+                                <div class="prog shelou1"></div>
+                            </span>
+                            <span>
+                                <small>JavaScript</small>
+                                <div class="prog shelou2"></div>
+                            </span>
+                            <span>
+                                <small>C#</small>
+                                <div class="prog shelou3"></div>
+                            </span>
+                            <span>
+                                <small>SQL</small>
+                                <div class="prog shelou4"></div>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="my-social">
+                        <span><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span><ion-icon name="logo-discord"></ion-icon></span>
+                        <span><ion-icon name="logo-google"></ion-icon></span>
+                    </div>
+                    <div class="newsletter">
+                        <div class="news-box">
+                            <input type="" name="" placeholder="Send me a message">
+                            <span><ion-icon name="send"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="activity-holder">
+                        <span>
+                            <a href="Feature.html"><small>Activities</small></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Aboutus Popup4 -->
+
+            
+
+
+
+
+
+            <!-- Banner -->
+            <div class="feature-banner">
+                  <!-- https://brisseaux.tumblr.com/post/91018371936 -->
+                  <div class="rot-img">
+                      <img src="https://45.media.tumblr.com/263e52c5f30e213c099a62a245242289/tumblr_n8bsno0htg1qmzbpoo1_1280.gif" alt="" class="imgMasked" />
+                  </div>
+                  <div class="circ1"></div>
+                  <div class="circ2"></div>
+                  <!-- <p class="Project-name">FEATURE </p> -->
+            </div>
+            <!-- Banner -->
+
+
+
+            <!-- Feature radio cont -->
+            <div class="feature-cont-radio">
+               <div class="feature-slider">
+                    <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
+                    <swiper-slide>
+                        <div class="feature1">
+                            <div class="fe-img">
+                                <img src="./feature/fea-img.png">
+                            </div>
+                            <div class="feature-cont-details">
+                                <span class="fe-head-text"><h1>INMANA</h1></span>
+                                <span class="fea-text-cont">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </span>
+                                <span class="fe-btn">
+                                    <button>View More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="feature1">
+                            <div class="fe-img">
+                                <img src="./feature/fea-img1.png">
+                            </div>
+                            <div class="feature-cont-details">
+                                <span class="fe-head-text"><h1>WEBTEC</h1></span>
+                                <span class="fea-text-cont">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </span>
+                                <span class="fe-btn">
+                                    <button>View More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="feature1">
+                            <div class="fe-img">
+                                <img src="./feature/fea-img2.png">
+                            </div>
+                            <div class="feature-cont-details">
+                                <span class="fe-head-text"><h1>MOBAPP</h1></span>
+                                <span class="fea-text-cont">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </span>
+                                <span class="fe-btn">
+                                    <button>View More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="feature1">
+                            <div class="fe-img">
+                                <img src="./feature/fea-img3.png">
+                            </div>
+                            <div class="feature-cont-details">
+                                <span class="fe-head-text"><h1>PROEL</h1></span>
+                                <span class="fea-text-cont">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </span>
+                                <span class="fe-btn">
+                                    <button>View More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="feature1">
+                            <div class="fe-img move-left">
+                                <img  src="./feature/fea-img4.png">
+                            </div>
+                            <div class="feature-cont-details">
+                                <span class="fe-head-text"><h1>TECHNO</h1></span>
+                                <span class="fea-text-cont">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. </p>
+                                </span>
+                                <span class="fe-btn">
+                                    <button>View More</button>
+                                </span>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+               </div>
+            </div>
+
+            
+
+            <!-- cards -->
+            <div class="card-conts">
+
+                <div class="feature-courses">
+                    <h1>Feature Cources</h1>
+                </div>
+
+               <div class="card-holder-cont">
+                   <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="./media/media1.jpg" class="card-img-top" alt="...">
+                        <span class="card-btn">
+                            <button href="#" class="btn active" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                            <!-- <button href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Solution</button> -->
+                        </span>
+                      </div>
+                </div>
+
+                <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                         <img src="./media/media1.jpg" class="card-img-top" alt="...">
+                        <span class="card-btn">
+                            <button href="#" class="btn active" data-bs-toggle="modal" data-bs-target="#exampleModal1">View More</button>
+                            <!-- <button href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Solution</button> -->
+                        </span>
+                      </div>
+                </div>
+
+                <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="./media/media1.jpg" class="card-img-top" alt="...">
+                        <span class="card-btn">
+                            <button href="#" class="btn active" data-bs-toggle="modal" data-bs-target="#exampleModal2">View More</button>
+                            <!-- <button href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Solution</button> -->
+                        </span>
+                      </div>
+                </div>
+               </div>
+            </div>
+
+
+
+
+
+            <!-- Modal 1 -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Accomplishments</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <li>
+                            <label>Title</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </li>
+
+                        <div class="mod-left-img">
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal 1 -->
+
+            <!-- Modal 2 -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Accomplishments</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <li>
+                            <label>Title</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </li>
+
+                        <div class="mod-left-img">
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal 2 -->
+
+            <!-- Modal 3 -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Accomplishments</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <li>
+                            <label>Title</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </li>
+
+                        <div class="mod-left-img">
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+
+                            <div class="acc-img">
+                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal 3 -->
+
+
+
+
+            <!-- Fotter -->
+            <div class="Footer-cont" id="Footer-cont">
+
+                <!-- floting image -->
+                <div class="floating-img">
+                    <img src="./images/anim_process1.svg" alt="">
+                </div>
+
+                <div class="floating-img2">
+                    <img src="./images/anim_process3.svg" alt="">
+                </div>
+
+                <div class="footer-header">
+                    <h1>Uxie</h1>
+                    <small>©2023 Created By Group 7  All rights reserved.</small>
+                </div>
+
+                <div class="footer-icon">
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-google"></ion-icon></span>
+                    <span><ion-icon name="logo-discord"></ion-icon></span>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                </div>
+
+                <div class="send-message">
+                    <div class="send-box">
+                        <input type="text" placeholder="Send us a message">
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=jinsakamaki02@gmail.com.com&su=Greetings&body=Hello Uxie&tf=cm"><span><ion-icon name="send"></ion-icon></span></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+
+<!-- icon cdn -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+<script src="./js/swiper-element-bundle.min.js"></script>
+
+<!-- slider/Swiper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> -->
+
+
+
+
+<script src="./js/header.js"></script>
+<script src="./js/aboutus.js"></script>
+<script src="./js/sound.js"></script>
+<script src="./js/news-app.js"></script>
+<script src="./js/sendmail.js"></script>
+<script src="./js/aboutusModal.js"></script>
+<script src="./js/anim.js"></script>
+
+</html>
