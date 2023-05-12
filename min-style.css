@@ -2276,6 +2276,12 @@ swiper-container {
         width: 60px;
         height: 60px;
     }
+    .logo{
+        display: none;
+    }
+    .left-header span{
+        margin-left: 0;
+    }
 }
 
 
