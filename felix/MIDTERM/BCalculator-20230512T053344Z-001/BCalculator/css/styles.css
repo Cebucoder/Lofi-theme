@@ -1,0 +1,47 @@
+body{
+    background-color: #495250;
+   
+}
+
+.card{
+    margin-top: 150px;
+    background-color: #1f2120;
+}
+
+.card-header{
+    color: black;
+    background-color: whitesmoke;
+	
+}
+
+#addBtn:hover{
+    background-color: rgb(17, 17, 68);
+}
+
+#minusBtn:hover{
+    background-color: rgb(89, 81, 15);
+}
+
+#multiplyBtn:hover{
+    background-color: rgb(17, 68, 20);
+}
+
+#divideBtn:hover{
+    background-color: rgb(68, 17, 17);
+}
+
+#btnClear:hover{
+    background-color: rgb(70, 68, 68);
+}
+.cardnum1{
+	color: white;
+}
+.cardnum2{
+	
+	color:white;
+}
+.h{
+	font-style:bold;
+	color:black;
+	text-align:center;
+}
