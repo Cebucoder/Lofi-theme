@@ -277,6 +277,13 @@ body{
     font-size: 20px;
 }
 
+
+.show-after{
+    display: none!important;
+}
+
+
+
 /* social-icon */
 .social-icon{
     width: 200px;
@@ -2077,6 +2084,9 @@ swiper-container {
 }
 
 
+/*this will show some of the navaigtion*/
+
+
 
 
 
@@ -2093,9 +2103,9 @@ swiper-container {
 /* Media */
 
 @media(max-width:1000px){
-    swiper-container{
+    /*swiper-container{
         display: none;
-    }
+    }*/
 }
 
 
@@ -2116,6 +2126,9 @@ swiper-container {
     .navigation-social{
         display: none;
     }
+    .show-after{
+    display: flex!important;
+}
 }
 
 @media (max-width: 920px){
@@ -2191,6 +2204,19 @@ swiper-container {
 /*        display: none;*/
     }
     
+}
+
+@media(max-width:540px){
+    .bot-header h1{
+        font-size: 40px;
+        transition: 0.3s;
+    }
+    .link button{
+        width: 180px;
+        height: 50px;
+        transition: 0.3s;
+
+    }
 }
 
 
