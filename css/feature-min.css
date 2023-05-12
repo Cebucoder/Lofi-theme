@@ -480,4 +480,30 @@ filter: drop-shadow(0px 3px 2px #4a536b);
 
 }
 
+@media(max-width:580px){
+  .modal-body{
+    flex-direction: column-reverse;
+    padding: 10px 10px!important;
+  }
+  .acc-img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .acc-img img{
+    height: 100%;
+    object-position: co;
+
+  }
+  .acc-img-hide{
+    display: none;
+  }
+  .modal-body li{
+    padding-right: 0px;
+  }
+  .modal-body p{
+    font-size: 13px;
+  }
+}
+
 
