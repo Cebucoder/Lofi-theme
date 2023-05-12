@@ -11,7 +11,7 @@
 .main-cont{
     width: 100%;
     height: 100vh;
-    background-image: url("/images/logback.png");
+    background-image: url("../images/logback.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
