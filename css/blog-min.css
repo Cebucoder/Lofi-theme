@@ -293,6 +293,12 @@ html{
 	}
 }
 
+@media(max-width:688px){
+	.blog-banner{
+		padding: 0 15px;
+	}
+}
+
 @media (max-width:580px){
 	.stud-head h1{
 		font-size: 18px;
@@ -318,5 +324,19 @@ html{
 @media (max-width:416px){
 	.prem-mid button{
 		width: 120px;
+	}
+}
+
+@media(max-width:384px){
+	.blog-banner{
+		margin: 20px 0;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	.blog-modal{
+		width: 100%;
+	}
+	.blog-overlay{
+		padding: 0 15px;
 	}
 }

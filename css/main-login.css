@@ -539,3 +539,29 @@ form{
     font-size: 23px;
     color: #fff;
  }
+
+
+
+
+
+@media(max-width:453px){
+    .main-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .login-form{
+        right: 0;
+    }
+    .overlay{
+    }
+}
+
+@media (max-width:395px){
+    .login-form{
+        max-width: 100%;
+        width: 100%;
+
+    }
+}
