@@ -1,8 +1,8 @@
 // ===========LYNDON============
 
 
-let showprem = document.getElementById("blog-overlay");
-let showmidterm = document.getElementById("blog-overlay1");
+let showprem = document.getElementById("blog-overlaylyn");
+let showmidterm = document.getElementById("blog-overlaylen1");
 
 function ShowPrelim(){
 	showprem.classList.add("Show-prem-modal")
@@ -24,8 +24,8 @@ function ShowMidterm(){
 // ===========RICHAMEL============
 
 
-let showprem1 = document.getElementById("blog-overlay1");
-let showmidterm1 = document.getElementById("blog-overlay2");
+let showprem1 = document.getElementById("blog-overlayrich");
+let showmidterm1 = document.getElementById("blog-overlayrich2");
 
 function ShowPrelim1(){
 	showprem1.classList.add("Show-prem-modal")

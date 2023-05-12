@@ -136,6 +136,11 @@ html{
 	font-size: 20px;
 	right: 20px;
 	margin: 5px 0;
+	transition: 0.3s;
+}
+.stud-social span:hover{
+	transform: scale(1.1);
+	cursor: pointer;
 }
 
 /*blog-overlay*/
