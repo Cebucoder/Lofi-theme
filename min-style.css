@@ -1318,16 +1318,23 @@ swiper-container {
 }
 .uxie-anim{
     display: flex;
+    position: relative;
     
 }
 .uxie-anim span{
-    transform: 0.3s;
+    transition: transform 0.8s;
+    padding: 0px;
+/*    background: pink;*/
+
 }
 .uxie-anim span:hover{
-    transform: translateY(-10px);
+        transform: translateY(-20px)scale(1.3);
+    transition: 0.1s;
+    color: #fff;
+    z-index: 1;
+/*    filter: drop-shadow(0 0 5px #00ff);*/
+    filter: drop-shadow(0 0 5px #64ffda);
     cursor: context-menu;
-    /* transform: 0.3s; */
-
 }
 
 .uxie-details{
