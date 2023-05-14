@@ -559,7 +559,7 @@ video::-webkit-media-controls-enclosure {
       transition: width 0.6s ease-in-out, background 0.3s ease-in-out;
 }
 .perc1-load::after {
-  width: 6%;
+  width: 60%;
 }
 
 /* js skill */
@@ -577,7 +577,7 @@ video::-webkit-media-controls-enclosure {
 }
 
 .perc2-load::after {
-  width: 6%;
+  width: 35%;
 }
 
 /* c# */

@@ -5,6 +5,10 @@ let closeModal = document.getElementById("aboutus-overlay");
 let about = document.getElementById("Show-About");
 let cardModal = document.getElementById("aboutus-card")
 let load = document.querySelector(".perc");
+let load = document.querySelector(".perc1");
+let load = document.querySelector(".perc2");
+let load = document.querySelector(".perc3");
+let load = document.querySelector(".perc4");
 
 
 function showAboutusModal() {
@@ -14,6 +18,8 @@ function showAboutusModal() {
     load.classList.add("perc-load");
     load.classList.add("perc1-load");
     load.classList.add("perc2-load");
+    load.classList.add("perc3-load");
+    load.classList.add("perc4-load");
   }, 300);
   closeModal.classList.add("show-aboutusModal");
 }
@@ -24,6 +30,10 @@ function closeABoutusModal(){
     about.classList.add("show-about-us");
     cardModal.classList.remove("show-card-scale");
     load.classList.remove("perc-load");
+    load.classList.remove("perc1-load");
+    load.classList.remove("perc2-load");
+    load.classList.remove("perc3-load");
+    load.classList.remove("perc4-load");
 
 }
 
