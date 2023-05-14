@@ -37,5 +37,6 @@ userElement.innerHTML = userData;
   function Logout(){
     localStorage.removeItem("User");
     localStorage.removeItem("isDarkModeEnabled");
+    localStorage.removeItem("lang");
   }
 

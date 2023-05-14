@@ -73,3 +73,32 @@ let isDarkModeEnabled = JSON.parse(localStorage.getItem("isDarkModeEnabled"));
 if (isDarkModeEnabled) {
   toggleDark();
 }
+
+
+
+
+
+
+function chooseLanguage() {
+  let languageOptions = document.getElementById("dropdwon");
+  languageOptions.classList.toggle("show-lang");
+}
+
+function setLanguage(lang) {
+  localStorage.setItem("lang", lang);
+  location.reload();
+}
+
+function getLanguage() {
+  let lang = localStorage.getItem("lang");
+  if (lang) {
+    return lang;
+  } else {
+    return "en"; // default language
+  }
+}
+
+// Set the language on page load
+let lang = getLanguage();
+// Code to change language based on `lang` variable goes here...
+
