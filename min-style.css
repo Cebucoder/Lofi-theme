@@ -1322,19 +1322,22 @@ swiper-container {
     
 }
 .uxie-anim span{
-    transition: transform 0.8s;
+    transition:.8s;
     padding: 0px;
 /*    background: pink;*/
 
 }
 .uxie-anim span:hover{
-        transform: translateY(-20px)scale(1.3);
+        transform: translateY(-25px)scale(1.3);
     transition: 0.1s;
     color: #fff;
     z-index: 1;
-/*    filter: drop-shadow(0 0 5px #00ff);*/
+/*    filter: drop-shadow(0 0 5px #00ff);*/ 
     filter: drop-shadow(0 0 5px #64ffda);
     cursor: context-menu;
+}
+.space{
+    margin: 0 10px;
 }
 
 .uxie-details{
