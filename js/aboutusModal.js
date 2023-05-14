@@ -4,13 +4,16 @@ let about1 = document.getElementById("aboutus-overlay");
 let closeModal = document.getElementById("aboutus-overlay");
 let about = document.getElementById("Show-About");
 let cardModal = document.getElementById("aboutus-card")
+let load = document.querySelector(".perc");
 
 
-function showAboutusModal(){
-	about1.classList.add("show-aboutusModal");
-    about.classList.remove("show-about-us");
-    cardModal.classList.add("show-card-scale");
-
+function showAboutusModal() {
+  about.classList.remove("show-about-us");
+  cardModal.classList.add("show-card-scale");
+  setTimeout(function() {
+    load.classList.add("perc-load");
+  }, 600);
+  closeModal.classList.add("show-aboutusModal");
 }
 
 
@@ -18,6 +21,7 @@ function closeABoutusModal(){
 	closeModal.classList.remove("show-aboutusModal");
     about.classList.add("show-about-us");
     cardModal.classList.remove("show-card-scale");
+    load.classList.remove("perc-load");
 
 }
 

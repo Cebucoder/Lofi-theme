@@ -519,6 +519,7 @@ video::-webkit-media-controls-enclosure {
     border-radius: 10px;
     background: #2eb2939d;
     overflow: hidden;
+    transition-delay:0.3s;
     transition: 0.5s;
 }
 .prog{
@@ -528,16 +529,23 @@ video::-webkit-media-controls-enclosure {
 /* ========== LYNDON SKILLS ========= */
 
 /* html skill */
-.perc::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 63%;
-    height: 100%;
-    background: #64ffda;
-    border-radius: 50px;
+.perc::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #64ffda;
+  border-radius: 50px;
+  transition: width 0.6s ease-in-out, background 0.3s ease-in-out;
 }
+
+.perc-load::after {
+  width: 63%;
+}
+
+
 /* css skill */
 .perc1::after{
     content: '';
