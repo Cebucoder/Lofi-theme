@@ -35,6 +35,10 @@ html{
 /*	position: relative;*/
 }
 
+.blog-dark{
+	background: #170B3B!important;
+}
+
 /*student-cont*/
 
 .student-cont{

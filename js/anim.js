@@ -35,6 +35,7 @@ userElement.innerHTML = userData;
 
 
   function Logout(){
-    localStorage.remove("User");
+    localStorage.removeItem("User");
+    localStorage.removeItem("isDarkModeEnabled");
   }
 
