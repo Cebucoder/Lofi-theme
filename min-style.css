@@ -12,25 +12,25 @@ body{
     /* background: #310f0f; */
 }
 
-video::-webkit-media-controls {
-    display:none !important;
-}
+/* video::-webkit-media-controls {
+    display:none;
+} */
 
 video::-webkit-media-controls-enclosure {
-    display:none !important;
+    display:none;
 }
 
-video::-webkit-media-controls-play-button {
-    display: inline !important;
-}
+/* video::-webkit-media-controls-play-button {
+    display: flex !important;
+} */
 
-video::-webkit-media-controls-start-playback-button {
-    display: none !important;
-}
+/* video::-webkit-media-controls-start-playback-button {
+    display: none;
+} */
 
-video::-webkit-media-controls-rewind-button {
-    display: none !important;
-}
+/* video::-webkit-media-controls-rewind-button {
+    display: none;
+} */
 
 .toggle-darkbody{
     background: #170B3B !important;
