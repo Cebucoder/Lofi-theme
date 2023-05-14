@@ -1299,7 +1299,7 @@ swiper-container {
     /* background: pink; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-; */
     padding: 30px 40px;
     font-family: 'Poppins',sans-serif;
     text-align: left;
@@ -1313,11 +1313,32 @@ swiper-container {
     display: flex;
     align-items: center;
 }
+.hero-details span h1{
+    font-size: 70px;
+}
+.uxie-anim{
+    display: flex;
+    
+}
+.uxie-anim span{
+    transform: 0.3s;
+}
+.uxie-anim span:hover{
+    transform: translateY(-10px);
+    cursor: context-menu;
+    /* transform: 0.3s; */
+
+}
+
+.uxie-details{
+    /* margin-top: -90px; */
+}
 
 .explore-btn{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 30px;
     /* justify-content: center; */
 }
 .explore-btn button{
@@ -1509,7 +1530,7 @@ swiper-container {
     font-family: 'Poppins',sans-serif;
 }
 .act-content{
-    margin-top: -180px;
+    margin-top: -390px;
 }
 
 .bot-header{
@@ -1527,10 +1548,10 @@ swiper-container {
 
 }
 .link button{
-    width: 230px;
-    height: 60px;
+    width: 120px;
+    height: 40px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins',sans-serif;
     background: #9152f8;
     background: -webkit-linear-gradient(top,#7579ff,#b224ef);
