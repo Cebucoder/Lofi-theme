@@ -12,7 +12,9 @@ function showAboutusModal() {
   cardModal.classList.add("show-card-scale");
   setTimeout(function() {
     load.classList.add("perc-load");
-  }, 600);
+    load.classList.add("perc1-load");
+    load.classList.add("perc2-load");
+  }, 300);
   closeModal.classList.add("show-aboutusModal");
 }
 

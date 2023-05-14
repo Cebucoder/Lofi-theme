@@ -552,24 +552,34 @@ video::-webkit-media-controls-enclosure {
     position: absolute;
     top: 0;
     left: 0;
-    width: 60%;
-    height: 100%;
-    background: #64ffda;
-    border-radius: 50px;
-
+    width: 0;
+      height: 100%;
+      background: #64ffda;
+      border-radius: 50px;
+      transition: width 0.6s ease-in-out, background 0.3s ease-in-out;
 }
+.perc1-load::after {
+  width: 6%;
+}
+
 /* js skill */
 .perc2::after{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 0;
     height: 100%;
     background: #64ffda;
     border-radius: 50px;
+    transition: width 0.6s ease-in-out, background 0.3s ease-in-out;
 
 }
+
+.perc2-load::after {
+  width: 6%;
+}
+
 /* c# */
 .perc3::after{
     content: '';
