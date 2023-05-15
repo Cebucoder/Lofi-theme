@@ -2,9 +2,14 @@
   width: 100%;
   height: 300px;
 /*  background: radial-gradient(circle, #674ab3, #a348a6, #9f63c4, #9075d8, #cea2d7);*/
+  background: url("../feature/gif.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 /*  background: #a348a6;*/
 
 }
