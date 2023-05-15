@@ -495,6 +495,10 @@ video::-webkit-media-controls-enclosure {
     background: rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
+.my-social a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* prog-cont */
 .prog-cont{
