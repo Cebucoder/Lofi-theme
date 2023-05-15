@@ -102,3 +102,11 @@ function getLanguage() {
 let lang = getLanguage();
 // Code to change language based on `lang` variable goes here...
 
+
+
+// back to home
+
+
+function backTohome(){
+  window.location.replace("index.html");
+}
