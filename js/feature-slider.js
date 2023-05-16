@@ -43,6 +43,10 @@ let webtechs = document.getElementById("webtech");
 let mobapps = document.getElementById("mobapp");
 let technos = document.getElementById("techno");
 let closeov = document.getElementById("proel");
+let closeov1 = document.getElementById("inmana");
+let closeov2 = document.getElementById("webtech");
+let closeov3 = document.getElementById("mobapp");
+let closeov4 = document.getElementById("techno");
 
 function Showproel(){
   proels.classList.add("show-overlay-prop");
@@ -50,21 +54,24 @@ function Showproel(){
 
 function closeover(){
   closeov.classList.remove("show-overlay-prop");
-
+  closeov1.classList.remove("show-overlay-prop");
+  closeov2.classList.remove("show-overlay-prop");
+  closeov3.classList.remove("show-overlay-prop");
+  closeov4.classList.remove("show-overlay-prop");
 }
 
 function inmana(){
-  
+  inmanas.classList.add("show-overlay-prop");
 }
 
 function webtech(){
-  
+  webtechs.classList.add("show-overlay-prop");
 }
 
 function mobapp(){
-  
+  mobapps.classList.add("show-overlay-prop");
 }
 
 function techno(){
-  
+  technos.classList.add("show-overlay-prop");
 }
