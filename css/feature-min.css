@@ -2,7 +2,7 @@
   width: 100%;
   height: 300px;
 /*  background: radial-gradient(circle, #674ab3, #a348a6, #9f63c4, #9075d8, #cea2d7);*/
-  background: url("../feature/gif.gif");
+  background: url("../feature/Cloud.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   margin: 40px 0;
+  /* padding: 0 30px; */
 /*  background: #a348a6;*/
 
 }

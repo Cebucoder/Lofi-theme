@@ -127,11 +127,12 @@ video::-webkit-media-controls-enclosure {
 
 /* logo */
 .logo{
-    width: 70px;
-    height: 70px;
-    background: #FFFF;
+    width: 75px;
+    height: 75px;
+    /* background: #FFFF; */
     border-radius: 50%;
     overflow: hidden;
+    /* box-shadow: 0 0 10px -3px #64ffda; */
 }
 .logo img{
     width: 100%;
