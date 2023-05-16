@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="min-style.css">
     <link rel="stylesheet" type="text/css" href="./css/blog-min.css">
     <link rel="icon" type="image/png" href="adlogo.png"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Uxie | Blog</title>
 </head>
 <body id="darkbody">
@@ -580,8 +581,8 @@
 
 
             <!-- Banner -->
-            <div class="blog-banner">
-                 <img src="./blog/blog.gif">
+            <div class="blog-banner" id="blog-banner">
+                 <img  src="./blog/blog.gif" >
             </div>
             <!-- Banner -->
 
@@ -592,39 +593,39 @@
 
                 <!-- LYDON CARD -->
 
-                <div class="student-cont" id="lydon">
-                    <div class="student-pic">
-                        <img src="./blog-team/lyndonBlog.png">
-                    </div>
-                    <div class="student-prof">
-                        <span class="stud-head">
-                            <h1>Lyndon Erl Ramirez</h1>
-                            <small>Developer</small>
-                        </span>
-                        <span class="stud-moto">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </span>
-                        <div class="prem-mid">
-                            <button onclick="ShowPrelim()">Prelim</button>
-                            <button onclick="ShowMidterm()">Midterm</button>
+                    <div class="student-cont  lyndonanim" id="lyndon">
+                        <div class="student-pic">
+                            <img src="./blog-team/lyndonBlog.png">
                         </div>
+                        <div class="student-prof">
+                            <span class="stud-head">
+                                <h1>Lyndon Erl Ramirez</h1>
+                                <small>Developer</small>
+                            </span>
+                            <span class="stud-moto">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </span>
+                            <div class="prem-mid">
+                                <button onclick="ShowPrelim()">Prelim</button>
+                                <button onclick="ShowMidterm()">Midterm</button>
+                            </div>
+                        </div>
+    
+                        <div class="stud-social">
+                            <span><ion-icon name="logo-facebook"></ion-icon></span>
+                            <span><ion-icon name="logo-google"></ion-icon></span>
+                            <span><ion-icon name="logo-discord"></ion-icon></span>
+                        </div>
+    
                     </div>
-
-                    <div class="stud-social">
-                        <span><ion-icon name="logo-facebook"></ion-icon></span>
-                        <span><ion-icon name="logo-google"></ion-icon></span>
-                        <span><ion-icon name="logo-discord"></ion-icon></span>
-                    </div>
-
-                </div>
 
                 <!-- LYDON CARD -->
 
 
                  <!-- RICH CARD -->
 
-                <div class="student-cont" id="rich">
+                <div class="student-cont richamelanim" id="rich">
                     <div class="student-pic">
                         <img src="./blog-team/RichaBlog.png">
                     </div>
@@ -656,7 +657,7 @@
 
                 <!-- REGINE CARD -->
 
-                <div class="student-cont" id="regine">
+                <div class="student-cont regineanim" id="regine">
                     <div class="student-pic">
                         <img src="./blog-team/RegineBlog.png">
                     </div>
@@ -688,7 +689,7 @@
 
                 <!-- FELIX CARD -->
 
-                <div class="student-cont" id="felix">
+                <div class="student-cont felixanim" id="felix">
                     <div class="student-pic">
                         <img src="./blog-team/FelixBlog.png ">
                     </div>
@@ -719,7 +720,7 @@
 
                 <!-- SHELOU CARD -->
 
-                <div class="student-cont" id="she">
+                <div class="student-cont shelouanim" id="she">
                     <div class="student-pic">
                         <img src="./blog-team/ShellBlog.png">
                     </div>
@@ -1019,7 +1020,6 @@
 
 
 
-
 <script src="./js/header.js"></script>
 <script src="./js/aboutus.js"></script>
 <script src="./js/sound.js"></script>
@@ -1029,6 +1029,9 @@
 <script src="./js/anim.js"></script>
 <script src="./js/blog.js"></script>
 <script src="./js/feature-slider.js"></script>
+<script src="./js/gsap.js"></script>
+
+
 
 
 

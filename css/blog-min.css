@@ -11,17 +11,31 @@ html{
 }
 
 .blog-banner{
-	width: 100%;
+	width: 0%;
 	height: 400px;
-	margin: 50px 0;
+	margin: 50px auto;
 	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+	opacity: 0;
 }
-.blog-banner img{
+
+.blog-img-anim{
+	width: 100%;
+	opacity: 1;
+  }
+
+
+
+.blog-banner img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 5px;
+	
 }
 
 /*blog-cont*/
@@ -239,6 +253,62 @@ html{
 .Show-prem-modal{
 	opacity: 1;
 	visibility: visible;
+}
+
+
+.lyndonanim{
+	margin-left: -200px;
+	opacity: 0;
+	transition: 0.8s;
+}
+.showLyndon{
+	opacity: 1;
+	margin-left: 0;
+}
+
+.richamelanim{
+	margin-left: 200px;
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.showrichamel{
+	opacity: 1;
+	margin-left: 0;
+}
+
+.regineanim{
+	margin-left: -200px;
+	opacity: 0;
+	transition: 0.8s;
+}
+.showregine{
+	opacity: 1;
+	margin-left: 0;
+}
+
+
+
+.felixanim{
+	margin-left: 200px;
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.showfelix{
+	opacity: 1;
+	margin-left: 0;
+}
+
+
+.shelouanim{
+	margin-left: -200px;
+	opacity: 0;
+	transition: 0.8s;
+}
+.showshelou{
+	opacity: 1;
+	margin-left: 0;
 }
 
 

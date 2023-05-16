@@ -1308,6 +1308,29 @@ swiper-container {
     align-items: center;
     justify-content: space-between;
 }
+
+.heroanim{
+    margin-left: -300px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.showheranim{
+    margin-left: 0%;
+    opacity: 1;
+}
+
+/* bot-anim */
+.bot-anim{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in;
+}
+.show-bot-anim{
+    opacity: 1;
+    visibility: visible;
+}
+
+
 .hero-img{
     width: 600px;
     height: 500px;
@@ -1406,7 +1429,17 @@ swiper-container {
     font-family: 'Poppins',sans-serif;
     text-align: left;
     font-size: 16px;
+    margin-right: -300px;
+    opacity: 0;
+    transition: 0.6s ease-in;
 }
+
+
+.sho-hero-deatils{
+    margin-right: 0%;
+    opacity: 1;
+}
+
 .hero-details p{
     padding: 15px 0;
 }
