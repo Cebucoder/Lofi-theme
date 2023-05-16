@@ -609,7 +609,7 @@
                                     Uses our creative skills, knowledge of design principles, and specialized software tools to create designs for a wide range of mediums, including print, digital platforms, and multimedia presentations. It work on projects such as logos, brochures, posters, websites, social media graphics, packaging, and more.</p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button onclick="proel()">View More</button>
+                                    <button onclick="Showproel()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -691,12 +691,12 @@
             <!-- =================================================== -->
             <!-- Modal -->
 
-            <div class="proel-overlay">
-                <span class="close-over">
+            <div class="proel-overlay" id="proel">
+                <span class="close-over" onclick="closeover()">
                     <ion-icon name="close"></ion-icon>
                 </span>
 
-                <div class="overlay-card">
+                <div class="overlay-card" id="proelcard">
                     <div class="overhead">
                         <label for="">Subject Detail</label>
                     </div>
@@ -982,5 +982,7 @@
 <script src="./js/sendmail.js"></script>
 <script src="./js/aboutusModal.js"></script>
 <script src="./js/anim.js"></script>
+<script src="./js/feature-slider.js"></script>
+
 
 </html>
