@@ -13,6 +13,9 @@
 /*  background: #a348a6;*/
 
 }
+small{
+  font-size: 15px !important;
+}
 
 
 /*rot-img*/
@@ -465,6 +468,10 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   height: 100%;
   margin-top: 70px;
   padding: 0 10px;
+
+}
+.sub-detail span small{
+  font-size: 15px;
 }
 .sub-detail span{
   margin: 3px 0;
