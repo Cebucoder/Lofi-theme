@@ -2330,6 +2330,65 @@ swiper-container {
 
 
 
+/* small-searchbar */
+.search-cont-small{
+    /* width: 100%; */
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    margin: 20px;
+}
+.show-cont-small{
+    opacity: 1;
+    visibility: visible;
+}
+
+.small-searchbar{
+    /* width: 100%; */
+    overflow: hidden;
+    width: 50px;
+    border-radius: 5px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.4s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.anim-search{
+    opacity: 1;
+    width: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+.search-cont-small input::placeholder{
+    color: #fff;
+}
+
+
+
+.small-searchbar input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    border: none;
+    outline: none;
+    outline-color: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
 
 
 

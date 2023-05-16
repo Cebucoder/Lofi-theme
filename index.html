@@ -28,10 +28,14 @@
                 <!-- searchbar -->
                 <div class="searchbar">
                     <input type="text">
-                    <span>
+                    <span onclick="showSearch()">
                         <ion-icon name="search"></ion-icon>
                     </span>
                 </div>
+
+
+                
+
                 <!-- menu bar -->
                 <div class="menubar" onclick="showMothCont()">
                    <div class="line hover"></div>
@@ -582,7 +586,12 @@
 
             
 
-
+            <!-- This will show only on the smaller screen -->
+            <div class="search-cont-small" id="search-id">
+                <div class="small-searchbar" id="small-searchbar">
+                    <input type="text" placeholder="Search here..">
+                </div>
+            </div>
 
 
             <!-- Slider -->
@@ -635,11 +644,17 @@
                     <swiper-slide>
                         <div class="hero">
                             <div class="tem-im">
-                                <img src="./images/slide2.jpg" alt="">
+                                <img src="./blog-team/team.jpg" alt="">
                             </div>
                         </div>
                     </swiper-slide>
-                    <swiper-slide>Slide 3</swiper-slide>
+                    <swiper-slide>
+                        <div class="hero">
+                            <div class="tem-im">
+                                <img src="./blog-team/team1.jpg" alt="">
+                            </div>
+                        </div>
+                    </swiper-slide>
                 </swiper-container>
 
                 <div class="slide-static">

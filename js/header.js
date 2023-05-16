@@ -90,3 +90,18 @@ function chooseLanguage() {
 function backTohome(){
   window.location.replace("index.html");
 }
+
+
+
+
+
+
+// searchbar
+let search = document.getElementById("small-searchbar");
+let searchCont = document.getElementById("search-id");
+function showSearch() {
+
+  search.classList.toggle("anim-search");
+  searchCont.classList.toggle("show-cont-small");
+
+}
