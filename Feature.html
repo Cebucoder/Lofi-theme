@@ -87,7 +87,7 @@
                     </div>
 
                     <div class="small-logo mt delay3" onclick="showReg()">
-                        <img src="./aboutus/Ui2.jpg" alt="">
+                        <img src="./blog-team/RegineAbout.png" alt="">
                     </div>
                     <div class="small-logo mt delay4" onclick="showFelix()">
                         <img src="./blog-team/Felixabout.png" alt="">
@@ -181,7 +181,7 @@
                         <!-- Regine Cole Salas -->
                        <div class="team-cont">
                         <div class="team-pic" onclick="showAboutusModal2()">
-                            <img src="./aboutus/Ui2.jpg" alt="">
+                            <img src="./blog-team/RegineAbout.png" alt="">
                         </div>
                         <span class="team-details">
                             <small>UI Designer</small>
@@ -376,7 +376,7 @@
 
     <div class="aboutus-card" id="aboutus-card2">
         <div class="mypic">
-            <img src="./aboutus/Ui2.jpg">
+            <img src="./blog-team/RegineAbout.png">
         </div>
         <div class="mydetails">
             <span class="label">
@@ -576,9 +576,6 @@
             
 
 
-
-
-
             <!-- Banner -->
             <div class="feature-banner">
                   <!-- https://brisseaux.tumblr.com/post/91018371936 -->
@@ -587,6 +584,9 @@
                   </div>
                   <div class="circ1"></div>
                   <div class="circ2"></div>
+                  <div class="show-fet">
+                    <label for="">Feature</label>
+                  </div>
                   <!-- <p class="Project-name">FEATURE </p> -->
             </div>
             <!-- Banner -->
@@ -605,11 +605,11 @@
                             <div class="feature-cont-details">
                                 <span class="fe-head-text"><h1>PROEL</h1></span>
                                 <span class="fea-text-cont">
-                                    <p>Graphic Designing - 
+                                    <p>
                                     Uses our creative skills, knowledge of design principles, and specialized software tools to create designs for a wide range of mediums, including print, digital platforms, and multimedia presentations. It work on projects such as logos, brochures, posters, websites, social media graphics, packaging, and more.</p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button>View More</button>
+                                    <button onclick="proel()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -625,7 +625,7 @@
                                     <p>Database Management -  Acquiring expertise in organizing, storing, and retrieving vast amounts of information efficiently, enabling effective data management and analysis.</p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button>View More</button>
+                                    <button onclick="inmana()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -641,7 +641,7 @@
                                     <p>Web Development -  Acquiring proficiency in designing and building dynamic websites and web applications, combining creativity and technical knowledge to create engaging online experiences. </p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button>View More</button>
+                                    <button onclick="webtech()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -659,7 +659,7 @@
                                     Examining the interaction between humans and computer systems, focusing on user experience design to create intuitive and user-friendly interfaces for software and applications.</p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button>View More</button>
+                                    <button onclick="mobapp()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -675,7 +675,7 @@
                                     <p>Information Systems: Understanding the strategic role of technology in organizations, leveraging IT resources to streamline processes, enhance decision-making, and drive business success.</p>
                                 </span>
                                 <span class="fe-btn">
-                                    <button>View More</button>
+                                    <button onclick="techno()">View More</button>
                                 </span>
                             </div>
                         </div>
@@ -684,13 +684,50 @@
                </div>
             </div>
 
+
+
+
+            <!-- PROEl -->
+            <!-- =================================================== -->
+            <!-- Modal -->
+
+            <div class="proel-overlay">
+                <span class="close-over">
+                    <ion-icon name="close"></ion-icon>
+                </span>
+
+                <div class="overlay-card">
+
+                </div>
+            </div>
             
+            <!-- Modal -->
+            <!-- =================================================== -->
+            <!-- PROEl -->
+
+
+            <!-- INMANA -->
+            <!-- =================================================== -->
+            <!-- Modal -->
+
+            <!-- <div class="proel-overlay">
+                
+            </div> -->
+            
+            <!-- Modal -->
+            <!-- =================================================== -->
+            <!-- INMANA -->
+
+
+
+
+
 
             <!-- cards -->
             <div class="card-conts">
 
                 <div class="feature-courses">
-                    <h1>Feature Courses</h1>
+                    <h1>Feature Courses Activities</h1>
                 </div>
 
                <div class="card-holder-cont">
@@ -707,7 +744,7 @@
 
                 <div class="card" id="card-responsive1">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">PROEL</h5>
                          <img src="./media/media1.jpg" class="card-img-top" alt="...">
                         <span class="card-btn">
                             <button href="#" class="btn active" data-bs-toggle="modal" data-bs-target="#exampleModal1">View More</button>
@@ -718,7 +755,7 @@
 
                 <div class="card" id="card-responsive2">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">MOBAPP</h5>
                         <img src="./media/media1.jpg" class="card-img-top" alt="...">
                         <span class="card-btn">
                             <button href="#" class="btn active" data-bs-toggle="modal" data-bs-target="#exampleModal2">View More</button>
@@ -745,36 +782,21 @@
                       <div class="modal-body">
                         <li>
                             <label>Title</label>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>DIFFICULTIES AND OVERCOME  BY REGINE</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>The difficulties i encounter in webtech subject  is making the laboratory  3, the laboratory  3 is about styling my profile using css. I found it challenging  because I'm not good in styling, specially that time i have no idea on how to style my profile using css. Also I'm struggling  in finding  a reference  that would be fit in styling  my profile.</p>
+                                
+                               <p> I overcome  those circumstances  I encounter   in a way that  I ask our professor to teach me step by step on  how to use it correctly and also i ask for help of my classmates. Now i already know how to property  use css and I'm done making my laboratory  3 activity.</p>
                         </li>
 
                         <div class="mod-left-img">
                             <div class="acc-img">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                                <img src="./feature/r.jpg">
                             </div>
 
-                         <!--    <div class="acc-img acc-img-hide">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
-                            </div> -->
+                            <div class="acc-img acc-img-hide">
+                                <img src="./feature/r1.jpg" alt="">
+                            </div>
                         </div>
 
                       </div>
@@ -798,36 +820,21 @@
                       </div>
                       <div class="modal-body">
                         <li>
-                            <label>Title</label>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <label>PROEL Activity</label>
+                            <p>Overcome and Accomplishments By Shellou</p>
                         
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>This Activity that is shown on the picture involve on how to come up with the idea on creating a character using these provided vegetables pictures, this task tests our ability for editing that now leads me on a difficult spot on assembling this pictures to one as I am not the type who is very good at editing. </p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>This picture shows that I have the capability to edit pictures, which gives me the strength to think and have a wide imagination. I bring vegetables to life and enhance my editing skills through this accomplishment. It proves that I can do anything with imagination and with the use of the correct application that helps me to create this output which is Adobe Photoshop.orum.</p>
                         </li>
 
                         <div class="mod-left-img">
                             <div class="acc-img">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                                <img src="./feature/s.png">
                             </div>
 
                             <div class="acc-img">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                                <img src="./feature/s1.png">
                             </div>
                         </div>
 
@@ -852,36 +859,27 @@
                       </div>
                       <div class="modal-body">
                         <li>
-                            <label>Title</label>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <label>MOBAPP Activity</label>
+                            <p>Overcome and Accomplishments
+                                By Felix
+                                
+                                I find difficulties in doing the first activity which is the lucky number. I have no idea how to make a UI using the xamarin and what the syntax is. On the other hand, the framework itself that has a bug(which was the problem ) may hinder /difficult to solve, if you have no idea about it you cant solve it
+              
+                                
+                               </p>
                         
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p> I overcome the challenges and difficulties by asking to my peers about UI, how to create and solve the problem i may encounter.</p>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           
                         </li>
 
                         <div class="mod-left-img">
                             <div class="acc-img">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                                <img src="./feature/f1.png">
                             </div>
 
                             <div class="acc-img">
-                                <img src="https://justcoded.com/wp-content/uploads/2019/12/capital-rise-case-study-cover-1018x1184.jpeg">
+                                <img src="./feature/f.png">
                             </div>
                         </div>
                       </div>
