@@ -24,7 +24,7 @@
                 <div class="left-header">
                     <!-- logo -->
                     <div class="logo" onclick="backTohome()">
-                        <img src="lots.png" alt="">
+                        <img src="bg-rem.png" alt="">
                     </div>
                     <!-- sitename -->
                     <span onclick="backTohome()">
@@ -34,7 +34,7 @@
                 <!-- searchbar -->
                 <div class="searchbar">
                     <input type="text">
-                    <span>
+                    <span onclick="showSearch()">
                         <ion-icon name="search"></ion-icon>
                     </span>
                 </div>
@@ -50,7 +50,7 @@
 
                 <!-- logo -->
                 <div class="logo hide-logo" id="show-logo">
-                    <img src="lots.png" alt="">
+                    <img src="bg-rem.png" alt="">
                 </div>
 
                 <!-- navlinks -->
@@ -573,7 +573,12 @@
 </div>
 <!-- Aboutus Popup4 -->
 
-            
+          <!-- This will show only on the smaller screen -->
+          <div class="search-cont-small" id="search-id">
+            <div class="small-searchbar" id="small-searchbar">
+                <input type="text" placeholder="Search here..">
+            </div>
+        </div>  
 
 
             <!-- Banner -->
@@ -1127,6 +1132,8 @@
 <script src="./js/aboutusModal.js"></script>
 <script src="./js/anim.js"></script>
 <script src="./js/feature-slider.js"></script>
+<script src="./js/feature-slider.js"></script>
+
 
 
 </html>
