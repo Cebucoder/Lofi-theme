@@ -448,9 +448,14 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   align-items: center;
   justify-content: center;
   padding: 15px;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  transition: 0.3s; */
+  transition: 0.3s;
+}
+
+.show-feature-card-overlay{
+  opacity: 1;
+  visibility: visible;
 }
 
 .feature-card{
@@ -515,23 +520,25 @@ filter: drop-shadow(0px 3px 2px #4a536b);
 .featur-card-content{
   width: 100%;
   height: 100%;
-  background: #f7f7f7;
+  background: #fff;
   padding: 15px;
   display: flex;
   margin-top: 10px;
 }
 .feature-card-img{
   max-width: 300px;
-  max-height: 210px;
   height: auto;
   /* min-height: 300px; */
   background: lightgray;
   border-radius: 5px;
   overflow: hidden;
+  /* border: 1px solid #170b3b; */
 }
 .feature-card-img img{
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  
 }
 
 /* feature-card-details */
@@ -539,11 +546,15 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   width: 100%;
   min-height: 300px;
   height: 100%;
-  background: #170b3b;
+  /* background: #170b3b; */
+  /* border:1px solid #170b3b; */
   border-radius: 5px;
   margin-left: 10px;
-  padding: 15px 25px;
-  color: #fff;
+  padding: 0px 25px;
+  color: #170b3b;
+}
+.feature-card-details label{
+  font-weight: bold;
 }
 
 
