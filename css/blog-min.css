@@ -257,8 +257,8 @@ html{
 
 
 .lyndonanim{
-	margin-left: -200px;
-	opacity: 0;
+	/* margin-left: -200px; */
+	/* opacity: 0; */
 	transition: 0.8s;
 }
 .showLyndon{
@@ -267,8 +267,8 @@ html{
 }
 
 .richamelanim{
-	margin-left: 200px;
-	opacity: 0;
+	/* margin-left: 200px; */
+	/* opacity: 0; */
 	transition: 0.8s;
 }
 
@@ -278,8 +278,8 @@ html{
 }
 
 .regineanim{
-	margin-left: -200px;
-	opacity: 0;
+	/* margin-left: -200px; */
+	/* opacity: 0; */
 	transition: 0.8s;
 }
 .showregine{
@@ -290,8 +290,8 @@ html{
 
 
 .felixanim{
-	margin-left: 200px;
-	opacity: 0;
+	/* margin-left: 200px; */
+	/* opacity: 0; */
 	transition: 0.8s;
 }
 
@@ -302,8 +302,8 @@ html{
 
 
 .shelouanim{
-	margin-left: -200px;
-	opacity: 0;
+	/* margin-left: -200px; */
+	/* opacity: 0; */
 	transition: 0.8s;
 }
 .showshelou{
@@ -365,6 +365,64 @@ html{
 	.blog-banner{
 		height: auto;
 	}
+
+	/* ================ */
+	.lyndonanim{
+		margin-left: 0px;
+		opacity: 1;
+		transition: 0.8s;
+	}
+	/* .showLyndon{
+		opacity: 1;
+		margin-left: 0;
+	} */
+	
+	.richamelanim{
+		margin-left: 0pc;
+		opacity: 1;
+		transition: 0.8s;
+	}
+	
+	/* .showrichamel{
+		opacity: 1;
+		margin-left: 0;
+	} */
+	
+	.regineanim{
+		margin-left: 0px;
+		opacity: 1;
+		transition: 0.8s;
+	}
+	/* .showregine{
+		opacity: 1;
+		margin-left: 0;
+	} */
+	
+	
+	
+	.felixanim{
+		margin-left: 0px;
+		opacity: 1;
+		transition: 0.8s;
+	}
+	
+	/* .showfelix{
+		opacity: 1;
+		margin-left: 0;
+	} */
+	
+	
+	.shelouanim{
+		margin-left: 0px;
+		opacity: 1;
+		transition: 0.8s;
+	}
+	/* .showshelou{
+		opacity: 1;
+		margin-left: 0;
+	} */
+	/* ===================== */
+
 }
 
 @media(max-width:688px){

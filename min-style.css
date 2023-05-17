@@ -81,8 +81,8 @@ video::-webkit-media-controls-enclosure {
 
 /* banner */
 .banner{
-    /* max-width: 1290px; */
-    width: 100%;
+    max-width: 1300px;
+    /* width: 100%; */
     margin-bottom: 80px;
     color: #fff;
     position: relative;
@@ -2689,6 +2689,78 @@ transition: 0.6s;
     .aboutus-card{
         width: 100%;
     }
+
+    /* ========================== */
+    /* =========================== */
+    .heroanim{
+        transform: translateX(0px);
+        opacity: 1;
+        /* transition: 0.6s; */
+    }
+    /* .showheranim{
+        transform: translateX(0px);
+        opacity: 1;
+    } */
+    
+    /* bot-anim */
+    .bot-anim{
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s ease-in;
+    }
+    /* .show-bot-anim{
+        opacity: 1;
+        visibility: visible;
+    }
+     */
+    
+    /* Scroll animation */
+    
+    /* first-anim */
+    
+    
+    .first-anim{
+    transform: translateX(0px);
+    opacity: 1;
+    transition: 0.6s;
+    }
+    .first-animImg{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.6s;
+    }
+    
+    /* .show-first-anim{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .show-first-animImg{
+        transform: translateX(0px);
+        opacity: 1;
+    } */
+    
+    
+    .second-anim{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.6s;
+    }
+    .second-animImg{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.6s;
+    }
+        
+    /* .show-second-anim{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .show-second-animImg{
+        transform: translateX(0px);
+        opacity: 1;
+    } */
+
+
 }
 
 @media(max-width:567px){
