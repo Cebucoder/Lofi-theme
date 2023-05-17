@@ -2279,7 +2279,7 @@ transition: 0.6s;
 /* Footer-cont */
 .Footer-cont{
     width: 100%;
-    /* max-width: 100; */
+    max-width: 1290px;
     margin: auto;
     height: 350px;
     /* background: #170B3B; */
