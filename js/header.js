@@ -4,13 +4,11 @@ let showlogo = document.getElementById("show-logo")
 let teamcont = document.getElementById("Show-About");
 let burger = document.getElementById("hide-burgers");
 
-
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > 90) {
-   
-
+  
    header.classList.add("hide-navigation");
    showlogo.classList.add("show-logo");
    burger.classList.add("show-burger");
@@ -18,12 +16,19 @@ var currentScrollPos = window.pageYOffset;
 
   } else {
    
-   
     header.classList.remove("hide-navigation");
     showlogo.classList.remove("show-logo");
     burger.classList.remove("show-burger");
-
   }
+
+  let botAnim = document.getElementById("bot-anim");
+
+  if (prevScrollpos > 500) {
+    botAnim.classList.add("show-bot-anim");
+  }else{
+    botAnim.classList.remove("show-bot-anim");
+}
+
   prevScrollpos = currentScrollPos;
 }
 

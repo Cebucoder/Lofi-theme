@@ -8,17 +8,17 @@ window.onload = function() {
 
 
 
-  let botAnim = document.getElementById("bot-anim");
+  // let botAnim = document.getElementById("bot-anim");
 
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > 500) {
-        botAnim.classList.add("show-bot-anim");
-    }else{
-        botAnim.classList.remove("show-bot-anim");
-    }
+  // var prevScrollpos = window.pageYOffset;
+  // window.onscroll = function() {
+  // var currentScrollPos = window.pageYOffset;
+  //   if (prevScrollpos > 500) {
+  //       botAnim.classList.add("show-bot-anim");
+  //   }else{
+  //       botAnim.classList.remove("show-bot-anim");
+  //   }
 
   
-    prevScrollpos = currentScrollPos;
-  }
+  //   prevScrollpos = currentScrollPos;
+  // }

@@ -33,6 +33,13 @@ let userElement = document.getElementById("userID").innerHTML = ` Hi ${userData}
 userElement.innerHTML = userData;
   
 
+// check if user is login or hvae ad at on local storage
+let checkuser = JSON.parse(localStorage.getItem("User"))
+if (userData  == null){
+  window.location.replace("main-login.html");
+}
+
+
 
   function Logout(){
     localStorage.removeItem("User");
