@@ -1310,12 +1310,12 @@ swiper-container {
 }
 
 .heroanim{
-    margin-left: -300px;
+    transform: translateX(-300px);
     opacity: 0;
     transition: 0.6s;
 }
 .showheranim{
-    margin-left: 0%;
+    transform: translateX(0px);
     opacity: 1;
 }
 
@@ -1329,6 +1329,78 @@ swiper-container {
     opacity: 1;
     visibility: visible;
 }
+
+
+/* Scroll animation */
+
+/* first-anim */
+
+
+.first-anim{
+transform: translateX(-200px);
+opacity: 0;
+transition: 0.6s;
+}
+.first-animImg{
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.show-first-anim{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.show-first-animImg{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+.second-anim{
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 0.6s;
+}
+.second-animImg{
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 0.6s;
+}
+    
+.show-second-anim{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.show-second-animImg{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hero-img{
@@ -1429,14 +1501,14 @@ swiper-container {
     font-family: 'Poppins',sans-serif;
     text-align: left;
     font-size: 16px;
-    margin-right: -300px;
+    transform: translateX(300px);
     opacity: 0;
     transition: 0.6s ease-in;
 }
 
 
 .sho-hero-deatils{
-    margin-right: 0%;
+    transform: translateX(0px);
     opacity: 1;
 }
 
@@ -1931,6 +2003,57 @@ swiper-container {
     padding: 50px 15px 15px 15px;
     position: relative;
 }
+
+
+/* news scroll animation */
+.thirdanim{
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.4s;
+}
+.thirdanim1{
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.4s;
+
+    transition-delay: 0.5s;
+}
+.show-thirdanim{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.fourthanim{
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+.fourthanim2{
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.4s;
+    transition-delay: 0.5s ease-in;
+
+}
+.fourthanim3{
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.4s;
+    transition-delay: 0.6s ease-in;
+
+}
+
+.show-fourthanim{
+    transform: scale(1);
+    opacity: 1;
+    /* transition-delay: 0.7s; */
+
+}
+
+
+
+
+
 .news-img img{
     width: 100%;
     height: 100%;
@@ -1967,8 +2090,7 @@ swiper-container {
     border: 1px solid #fff;
     color: #fff;
     font-size: 16px;
-    transition: 0.3s
-;
+    transition: 0.3s;
 }
 .news-overlay button:hover{
     cursor: pointer;
