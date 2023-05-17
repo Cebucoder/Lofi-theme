@@ -18,6 +18,9 @@ function signIn() {
       }, 1000);
     } else {
     //   location.replace("index.html");
+        console.log("Username: " + username);
+        console.log("Password: " + pass);
+
         window.location.replace("index.html");
         localStorage.setItem("User", JSON.stringify(username));
         user.innerHTML = `${username}`; // Remove the let keyword from this line
@@ -33,8 +36,8 @@ let userElement = document.getElementById("userID").innerHTML = ` Hi ${userData}
 userElement.innerHTML = userData;
   
 
-// check if user is login or hvae ad at on local storage
-let checkuser = JSON.parse(localStorage.getItem("User"))
+// check if user is login or already have data save on local storage
+
 if (userData  == null){
   window.location.replace("main-login.html");
 }
