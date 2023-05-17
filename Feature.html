@@ -948,7 +948,7 @@
 
             <!-- Modal 1 -->
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -978,11 +978,39 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        
                       </div>
                     </div>
                   </div>
+                </div> -->
+
+                <div class="feature-card-overlay">
+                    <span class="closefeature-overlay">
+                        <ion-icon name="close"></ion-icon>
+                    </span>
+                    <div class="feature-card">
+                        <div class="feature-card-header">
+                            <!-- <div class="feature-card-logo">
+                                <img src="./feature/web.png" alt="">
+                            </div> -->
+                            <label for="">WEBTECH Activity</label>
+                        </div>
+                        <div class="featur-card-content">
+                            <div class="feature-card-img">
+                                <img src="./feature/r.jpg" alt="">
+                            </div>
+                            <div class="feature-card-details">
+                                <label>WEBTECH Activity</label>
+                                <p>Overcome and Accomplishments By Regine</p>
+
+                                <p>The difficulties i encounter in webtech subject  is making the laboratory  3, the laboratory  3 is about styling my profile using css. I found it challenging  because I'm not good in styling, specially that time i have no idea on how to style my profile using css. Also I'm struggling  in finding  a reference  that would be fit in styling  my profile.</p>
+                                
+                               <p> I overcome  those circumstances  I encounter   in a way that  I ask our professor to teach me step by step on  how to use it correctly and also i ask for help of my classmates. Now i already know how to property  use css and I'm done making my laboratory  3 activity.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             <!-- Modal 1 -->
 
             <!-- Modal 2 -->
@@ -1124,7 +1152,8 @@
 
 
 
-<script src="./js/feature-scroll.js"></script>
+<!-- <script src="./js/feature-scroll.js"></script> -->
+<script src="./js/navi.js"></script>
 <script src="./js/header.js"></script>
 <script src="./js/aboutus.js"></script>
 <script src="./js/sound.js"></script>
@@ -1136,28 +1165,28 @@
 <script src="./js/feature-slider.js"></script>
 
 <script>
-    var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > 90) {
-    let header = document.getElementById("navigation");
-    let showlogo = document.getElementById("show-logo");
-    let teamcont = document.getElementById("Show-About");
-    let burger = document.getElementById("hide-burgers");
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+// var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > 90) {
+//     let header = document.getElementById("navigation");
+//     let showlogo = document.getElementById("show-logo");
+//     let teamcont = document.getElementById("Show-About");
+//     let burger = document.getElementById("hide-burgers");
     
-    header.classList.add("hide-navigation");
-    showlogo.classList.add("show-logo");
-    burger.classList.add("show-burger");
-    teamcont.classList.remove("show-about-us");
+//     header.classList.add("hide-navigation");
+//     showlogo.classList.add("show-logo");
+//     burger.classList.add("show-burger");
+//     teamcont.classList.remove("show-about-us");
 
- } else{
+//  } else{
   
-   header.classList.remove("hide-navigation");
-   showlogo.classList.remove("show-logo");
-   burger.classList.remove("show-burger");
- }
- prevScrollpos = currentScrollPos;
-}
+//    header.classList.remove("hide-navigation");
+//    showlogo.classList.remove("show-logo");
+//    burger.classList.remove("show-burger");
+//  }
+//  prevScrollpos = currentScrollPos;
+// }
 </script>
 
 

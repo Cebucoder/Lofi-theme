@@ -88,6 +88,7 @@ video::-webkit-media-controls-enclosure {
     position: relative;
     margin: auto;
 }
+
 .banner::after{
     content: "";
     position: absolute;
@@ -223,8 +224,11 @@ video::-webkit-media-controls-enclosure {
     justify-content: space-between;
     padding: 0 50px;
     position: relative;
-   padding-top: 20px;
+    padding-top: 20px;
+
 }
+
+
 
 .hide-navigation{
     top: 0;
