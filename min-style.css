@@ -2895,8 +2895,16 @@ transition: 0.6s;
         opacity: .3;
     }
     .searchbar{
-        right: 50px;
+        height: 40px;
+        right: 30px;
 /*        width: 100%;*/
+    }
+    .header{
+        padding: 0 20px !important;
+    }
+    .searchbar span{
+        width: 40px;
+        height: 40px;
     }
 }
 

@@ -1,6 +1,6 @@
 .feature-banner{
   width: 100%;
-  height: 300px;
+  height: 500px;
 /*  background: radial-gradient(circle, #674ab3, #a348a6, #9f63c4, #9075d8, #cea2d7);*/
   background: url("../feature/Cloud.gif");
   background-size: cover;
@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
+  margin-top: 40px;
   /* padding: 0 30px; */
 /*  background: #a348a6;*/
 
@@ -499,6 +499,7 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   align-items: center;
   padding: 0 30px;
   background: #170B3B;
+  position: relative;
 }
 .feature-card-logo{
   width: 50px;
@@ -507,10 +508,13 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   overflow: hidden;
   margin-right: 20px;
   border: 2px solid #ffff;
+  position: absolute;
+  right: 0;
 }
 .feature-card-logo img{
   width: 100%;
   height: 100%;
+
 }
 .feature-card-header label{
   font-size: 20px;
@@ -524,22 +528,47 @@ filter: drop-shadow(0px 3px 2px #4a536b);
   padding: 15px;
   display: flex;
   margin-top: 10px;
+  /* background: rgb(128, 0, 128); */
 }
 .feature-card-img{
   max-width: 300px;
-  height: auto;
-  /* min-height: 300px; */
-  background: lightgray;
+  /* height: 100%; */
+  height: 300px;
+  /* background: lightgray; */
   border-radius: 5px;
   overflow: hidden;
   /* border: 1px solid #170b3b; */
+  position: relative;
+  background: #170b3b;
 }
+
+
 .feature-card-img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* padding: 2px; */
   
 }
+.showleft img{
+  object-fit: cover;
+  object-position: left;
+
+}
+
+.hover-img{
+  width: 50px;
+}
+.hover-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #170b3b;
+}
+
 
 /* feature-card-details */
 .feature-card-details{
@@ -723,6 +752,14 @@ filter: drop-shadow(0px 3px 2px #4a536b);
     justify-content: space-evenly;
   }
 }
+
+
+@media(max-width:875px){
+  .feature-card{
+    width: 100%;
+  }
+}
+
 
 @media(max-width:828px){
   .card-holder-cont{

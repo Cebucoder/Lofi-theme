@@ -46,7 +46,7 @@ html{
 	display: flex;
 	flex-direction: column;
 	padding: 60px;
-/*	position: relative;*/
+	position: relative;
 }
 
 .blog-dark{
