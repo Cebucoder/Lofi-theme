@@ -2896,7 +2896,8 @@ transition: 0.6s;
     }
     .searchbar{
         height: 40px;
-        right: 30px;
+        right: 70px;
+        padding: 0;
 /*        width: 100%;*/
     }
     .header{
