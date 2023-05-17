@@ -7,19 +7,19 @@ let burger = document.getElementById("hide-burgers");
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > 90) {
+  // if (prevScrollpos > 90) {
   
-   header.classList.add("hide-navigation");
-   showlogo.classList.add("show-logo");
-   burger.classList.add("show-burger");
-   teamcont.classList.remove("show-about-us")
+  //  header.classList.add("hide-navigation");
+  //  showlogo.classList.add("show-logo");
+  //  burger.classList.add("show-burger");
+  //  teamcont.classList.remove("show-about-us")
 
-  } else {
+  // } else {
    
-    header.classList.remove("hide-navigation");
-    showlogo.classList.remove("show-logo");
-    burger.classList.remove("show-burger");
-  }
+  //   header.classList.remove("hide-navigation");
+  //   showlogo.classList.remove("show-logo");
+  //   burger.classList.remove("show-burger");
+  // }
 
   let botAnim = document.getElementById("bot-anim");
 
