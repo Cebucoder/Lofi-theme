@@ -24,18 +24,31 @@ video::-webkit-media-controls-enclosure {
     display:none;
 }
 
-/* video::-webkit-media-controls-play-button {
-    display: flex !important;
-} */
-
-/* video::-webkit-media-controls-start-playback-button {
+.notemp {
+    position: absolute;
+    right: 90px;
+    bottom: 100px;
+    width: 200px;
+    height: 190px;
+    /* border-radius: solid  10px; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #674ab3, #9f63c4, #cea2d7);
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #674ab3, #9f63c4, #cea2d7) 1;
+  }
+  
+.notemp img{
     display: none;
-} */
-
-/* video::-webkit-media-controls-rewind-button {
-    display: none;
-} */
-
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    
+}
 
 
 

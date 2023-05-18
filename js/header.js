@@ -169,5 +169,35 @@ function showSearch() {
 
 
 
+// ===========================================
+
+
+  var images = document.querySelectorAll('.notemp img');
+  var duration = 1000; // Duration in milliseconds (3 seconds)
+
+  var currentIndex = 0;
+
+  function showNextImage() {
+    images[currentIndex].style.display = 'none'; // Hide current image
+
+    currentIndex = (currentIndex + 1) % images.length; // Update index to the next image
+
+    images[currentIndex].style.display = 'block'; // Show next image
+
+    setTimeout(showNextImage, duration); // Call the function recursively after the specified duration
+  }
+
+  // Initially hide all images except the first one
+  for (var i = 1; i < images.length; i++) {
+    images[i].style.display = 'none';
+  }
+
+  // Start showing images after 2 seconds
+  setTimeout(showNextImage, 2000);
+
+
+
+
+
 
 
