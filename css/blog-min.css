@@ -13,8 +13,8 @@ html{
 .blog-banner{
 	width: 0%;
 	height: 400px;
-	margin: 50px auto;
-	padding: 0 30px;
+	/* margin: 50px auto; */
+	/* padding: 0 30px; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
