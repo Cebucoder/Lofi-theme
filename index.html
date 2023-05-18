@@ -129,12 +129,12 @@
                                 <li>Music</li></a>
 
                                 
-                            <a href="#"  onclick="chooseLanguage()"><ion-icon name="language"></ion-icon><li>Language</li></a>    
+                            <a href="#" onclick="chooseLanguage()"><ion-icon name="language"></ion-icon><li>Language</li></a>    
 
                             <div class="language" id="dropdwon">
-                                <li onclick="setLanguage('en')">English</li>
-                                <li onclick="setLanguage('es')">Spanish</li>
-                                <li onclick="setLanguage('fr')">French</li>
+                                <li >English</li>
+                                <li >Spanish</li>
+                                <li >French</li>
                             </div>
                             
 
@@ -670,7 +670,7 @@
                 <div class="bot-anim" id="bot-anim">
                     <div class="bot-float">
                     <img src="./images/anim_team.svg" alt="">
-                </div>
+                    </div>
                 <div class="act-cont">
                     <div class="act-content">
                         <div class="bot-header">
@@ -700,7 +700,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="./images/bg_1_pixels.svg" alt="">
+                <img class="picels" src="./images/bg_1_pixels.svg" alt="">
                 </div>
             </div>
 
@@ -1119,5 +1119,13 @@
 <script src="./js/sendmail.js"></script>
 <script src="./js/aboutusModal.js"></script>
 <script src="./js/anim.js"></script>
+
+<script>
+    function chooseLanguage() {
+  let languageOptions = document.getElementById("dropdown");
+
+  languageOptions.classList.toggle("show-lang");
+}
+</script>
 
 </html>
