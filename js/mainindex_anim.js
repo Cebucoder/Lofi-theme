@@ -18,7 +18,7 @@ window.onload = function() {
     header.classList.add("hide-navigation");
     showlogo.classList.add("show-logo");
     burger.classList.add("show-burger");
-    teamcont.classList.remove("show-about-us")
+    // teamcont.classList.remove("show-about-us")
  
    } else {
     

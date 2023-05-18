@@ -2305,7 +2305,7 @@ transition: 0.6s;
 }
 
 .dark-footer{
-    background: #170B3B;
+    background: #170B3B !important;
 }
 
 /* floating-img */

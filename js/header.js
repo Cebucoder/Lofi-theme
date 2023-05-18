@@ -26,7 +26,7 @@ function toggleDark(){
   tgdarkmode1.classList.toggle("toggle-Darkmode1");
   tgdarkmode2.classList.toggle("toggle-Darkmode2");
   tgdarkmode3.classList.toggle("toggle-Darkmode3");
-  // blogCont.classList.toggle("blog-dark");
+  // blogCont.classList.toggle("toggle-Darkmode3");
   footerDark.classList.toggle("dark-footer");
 
 
@@ -55,6 +55,105 @@ function chooseLanguage() {
 function backTohome(){
   window.location.replace("index.html");
 }
+
+
+// uxiew social
+function social1(){
+  const url = "https://www.facebook.com/profile.php?id=100092543981435&mibextid=ZbWKwL"
+  window.open(url,"_blank");
+}
+function social2(){
+  const url = "https://mail.google.com/mail/u/0/?fs=1&to=uxiecenter@gmail.com&su=Greetings&body=Hello Uxie team&tf=cm"
+  window.open(url,"_blank");
+}
+function social3(){
+  const url = "https://discord.com/channels/@me/search?author=Lynked#0647";
+  window.open(url,"_blank");
+}
+function social4(){
+  const url = "https://twitter.com/UxieWeb0007?t=Tn4qFRPr2E4tchv3VJfEIg&s=09";
+  window.open(url,"_blank");
+}
+function social5(){
+  const url = "https://instagram.com/uxieweb00007?igshid=ZGUzMzM3NWJiOQ==";
+  window.open(url,"_blank");
+}
+
+
+// blog team social
+function lyndsoc(){
+	const url = "https://www.facebook.com/lyndon.erl";
+	window.open(url, "_blank");
+}
+function lyndsoc1(){
+	const url = "https://mail.google.com/mail/u/0/?fs=1&to=lyndonerlramirez@gmail.com&su=Greetings&body=Hello Lyndon&tf=cm";
+	window.open(url, "_blank");
+}
+function lyndsoc2(){
+	const url = "https://discord.com/channels/@me/search?author=Lynked#0647";
+	window.open(url, "_blank");
+}
+
+// blog team social
+function richsoc(){
+	const url = "https://www.facebook.com/ricaforte.richamille";
+	window.open(url, "_blank");
+}
+function richsoc1(){
+	const url = "https://mail.google.com/mail/u/0/?fs=1&to=richamilleann@gmail.com&su=Greetings&body=Hello Rich&tf=cm";
+	window.open(url, "_blank");
+}
+function richsoc2(){
+	const url = "https://twitter.com/Serenit71853266?t=Bkig6k6tHTwVmOgZS4lT0g&s=09";
+	window.open(url, "_blank");
+}
+
+
+// blog team social
+function regsoc(){
+	const url = "https://www.facebook.com/profile.php?id=100086415549740";
+	window.open(url, "_blank");
+}
+function regsoc1(){
+	const url = "https://mail.google.com/mail/u/0/?fs=1&to=salasregine282@gmail.com&su=Greetings&body=Hello Regine&tf=cm";
+	window.open(url, "_blank");
+}
+function regsoc2(){
+	const url = "https://instagram.com/wehgen_dump?igshid=ZGUzMzM3NWJiOQ=";
+	window.open(url, "_blank");
+}
+
+
+// blog team social
+function felixsoc(){
+	const url = "https://www.facebook.com/nilag.pad.3";
+	window.open(url, "_blank");
+}
+function felixsoc1(){
+	const url = "https://mail.google.com/mail/u/0/?fs=1&to=felix2@gmail.com&su=Greetings&body=Hello Felix&tf=cm";
+	window.open(url, "_blank");
+}
+function felixsoc2(){
+	const url = "https://discord.gg/PdMgXc5t";
+	window.open(url, "_blank");
+}
+
+// blog team social
+function shesoc(){
+	const url = "https://www.facebook.com/noona.cheong";
+	window.open(url, "_blank");
+}
+function shesoc1(){
+	const url = "https://mail.google.com/mail/u/0/?fs=1&to=shelloufrasco420@gmail.com&su=Greetings&body=Hello Shelou&tf=cm";
+	window.open(url, "_blank");
+}
+function shesoc2(){
+	const url = "https://twitter.com/itsmeshellou28?t=K2YQaFAwcRV94tWFGjZbbw&s=09";
+	window.open(url, "_blank");
+}
+
+
+
 
 
 // searchbar
