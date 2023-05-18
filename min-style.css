@@ -2917,6 +2917,14 @@ transition: 0.6s;
     }
 }
 
+@media(max-width:730px){
+    .notemp{
+        right: 20px;
+        width: 100px;
+        height: auto;
+    }
+}
+
 
 @media(max-width:500px){
     .floating-img,.floating-img2{
@@ -2963,6 +2971,9 @@ transition: 0.6s;
     }
     .bot-header h5{
         font-size: 30px;
+    }
+    .notemp{
+        bottom: 20px;
     }
 
 }
