@@ -43,10 +43,10 @@ html{
 	width: 100%;
 	height: auto;
 	/* background: #f7f7f7; */
-	background: url(../blog/blogvidstar.gif);
+	/* background: url(../blog/blogvidstar.gif);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	/* background: transparent; */
 	display: flex;
 	flex-direction: column;

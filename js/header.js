@@ -63,7 +63,7 @@ function social1(){
   window.open(url,"_blank");
 }
 function social2(){
-  const url = "https://mail.google.com/mail/u/0/?fs=1&to=uxiecenter@gmail.com&su=Greetings&body=Hello Uxie team&tf=cm"
+  const url = "https://mail.google.com/mail/u/0/?fs=1&to=Uxiweb0007@gmail.com&su=Greetings&body=Hello Uxie team&tf=cm"
   window.open(url,"_blank");
 }
 function social3(){
