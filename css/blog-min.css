@@ -42,7 +42,8 @@ html{
 .blog-cont{
 	width: 100%;
 	height: auto;
-	background: #f7f7f7;
+	/* background: #f7f7f7; */
+	background: transparent;
 	display: flex;
 	flex-direction: column;
 	padding: 60px;

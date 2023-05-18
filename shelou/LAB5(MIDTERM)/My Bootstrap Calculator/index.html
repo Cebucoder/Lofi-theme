@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    	<title>
+	My Bootstrap Calculator
+	</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="css/ICON1.ico">
+</head>
+<body>
+
+    <a href="javascript:history.back()">
+        <span 
+        style="position: absolute;top: 30px;left: 30px; width: 30px; height: 30px;
+        width: 60px;height: 30px; background: #170B3B; cursor: pointer; color: #fff; font-size: 30px; border-radius: 5px; display: flex;align-items: center; justify-content: center;">
+        <ion-icon name="return-up-back-outline"></ion-icon>
+        </span>
+    </a>
+
+    <div class ="container">
+
+       
+
+        <div class ="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                      <h5 class="TitleHead">MY BOOTSTRAP CALCULATOR</h5>
+                    </div><br>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label1">NUMBER 1</label>
+                            <input type="email" class="form-control" id="Input1" placeholder="Enter Number 1">
+                          </div><br>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label2">NUMBER 2</label>
+                            <input type="email" class="form-control" id="Input2" placeholder="Enter Number 2">
+                          </div><br>
+                          <!--Operation Button-->
+                          <div class="row"> 
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary" onclick="addNumbers()">+</button>
+                                </div> 
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-warning" onclick="subtractNumbers()">-</button>
+                                </div> 
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-success" onclick="multiplyNumbers()">*</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-danger" onclick="divideNumbers()">/</button>
+                                </div>
+                            </div>
+                          </div><br>
+                          <!--For Clear button-->
+                          <div class ="row">
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-secondary" onclick="clearTextboxes()">Clear</button>
+                                    </div>
+                            </div>
+                          </div>
+                          
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>    
+<script type="text/javascript" src="js/script.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
