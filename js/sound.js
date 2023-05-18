@@ -25,3 +25,6 @@ playMusicBtn.addEventListener("click", () => {
   }
   isPlaying = !isPlaying;
 });
+
+
+

@@ -11,6 +11,12 @@ function CloseMenuCont(){
   menuCont.classList.remove("show-menu-child");
 }
 
+let lang = document.getElementById("dropdown");
+  function chooseLanguage(){
+    lang.classList.toggle("show-language");
+}
+
+
 
 function toggleDark(){
   let tgdarkmode = document.getElementById("Darkmode");
@@ -42,11 +48,7 @@ if (isDarkModeEnabled) {
 }
 
 
-function chooseLanguage() {
-  let languageOptions = document.getElementById("dropdown");
 
-  languageOptions.classList.toggle("show-lang");
-}
 
 
 // back to home
